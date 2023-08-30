@@ -93,7 +93,7 @@ ul.liste li a{
     margin: 5px auto;
     gap: 5px;
     justify-content: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
  }
  .article{
@@ -124,4 +124,37 @@ ul.liste li a{
     width: 80%;
     margin: 5px auto;
  }
-
+ .section6{
+    display: grid;
+    width: 80%;
+    margin: 5px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+ }
+ .section7{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 15px;
+ }
+ .red{
+    color: red;
+ }
+ .section8{
+    display: grid;
+    border: 2px solid yellow;
+    margin: 15px auto;
+    margin-bottom: 15px;
+ }
+ footer p{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+    text-align: center;
+    padding: 20px auto;
+    margin-bottom: 20px;
+ }
+ 
+ 
